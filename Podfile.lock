@@ -1,0 +1,100 @@
+PODS:
+  - Alamofire (5.4.3)
+  - AlamofireImage (4.0.3):
+    - Alamofire (< 6.0.0, >= 5.0.2)
+  - AlamofireObjectMapper (6.3.0):
+    - Alamofire (~> 5.2)
+    - ObjectMapper (~> 4.2)
+  - Cuckoo (1.5.1):
+    - Cuckoo/Swift (= 1.5.1)
+  - Cuckoo/Swift (1.5.1)
+  - Nimble (9.2.0)
+  - ObjectMapper (4.2.0)
+  - PKHUD (5.3.0)
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.15.3):
+    - PromiseKit/CorePromise
+  - RNCryptor (5.1.0)
+  - SDOSAlamofire (2.0.1):
+    - Alamofire (~> 5.3)
+    - SDOSAlamofire/Core (= 2.0.1)
+    - SDOSKeyedCodable (~> 1.2)
+    - SDOSSwiftExtension (~> 1.1)
+  - SDOSAlamofire/Core (2.0.1):
+    - Alamofire (~> 5.3)
+    - SDOSKeyedCodable (~> 1.2)
+    - SDOSSwiftExtension (~> 1.1)
+  - SDOSEnvironment (1.3.0):
+    - RNCryptor (~> 5.1)
+    - SDOSEnvironment/SDOSEnvironment (= 1.3.0)
+  - SDOSEnvironment/SDOSEnvironment (1.3.0):
+    - RNCryptor (~> 5.1)
+  - SDOSKeyedCodable (1.2.0):
+    - SDOSKeyedCodable/KeyedCodable (= 1.2.0)
+  - SDOSKeyedCodable/KeyedCodable (1.2.0)
+  - SDOSSwiftExtension (1.1.0):
+    - SDOSSwiftExtension/SwiftExtension (= 1.1.0)
+  - SDOSSwiftExtension/SwiftExtension (1.1.0)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - AlamofireObjectMapper (from `https://github.com/RomanPodymov/AlamofireObjectMapper.git`, branch `master`)
+  - Cuckoo
+  - Nimble
+  - PKHUD (~> 5.0)
+  - PromiseKit
+  - SDOSAlamofire (~> 2.0.1)
+  - SDOSEnvironment (~> 1.3.0)
+  - SDOSKeyedCodable
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Cuckoo
+    - Nimble
+    - RNCryptor
+  https://github.com/SDOSLabs/cocoapods-specs.git:
+    - SDOSAlamofire
+    - SDOSEnvironment
+    - SDOSKeyedCodable
+    - SDOSSwiftExtension
+  trunk:
+    - AlamofireImage
+    - ObjectMapper
+    - PKHUD
+    - PromiseKit
+
+EXTERNAL SOURCES:
+  AlamofireObjectMapper:
+    :branch: master
+    :git: https://github.com/RomanPodymov/AlamofireObjectMapper.git
+
+CHECKOUT OPTIONS:
+  AlamofireObjectMapper:
+    :commit: a46c9010bf32d0c78ab9e56bdcf338987de4f000
+    :git: https://github.com/RomanPodymov/AlamofireObjectMapper.git
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AlamofireImage: 3d1a2010519e58675318735580eb856e88840ff7
+  AlamofireObjectMapper: abe058eaad24646e52bd6122f232020284cfd46a
+  Cuckoo: 9124fe138270854903483c270370e6e7658fbc9b
+  Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
+  RNCryptor: a369134686cd2ad391323cc856b62e591193ba79
+  SDOSAlamofire: f2bd17513099fd31d8bcd112c7e54cf60a21646f
+  SDOSEnvironment: e73caad3fb114252a959e9b8b630f216bbefa5c9
+  SDOSKeyedCodable: 78e44bbd97875419e6a35f224e903a9d7544d4bc
+  SDOSSwiftExtension: dd7d060622abea7d2f4de4bf5be4099596a29193
+
+PODFILE CHECKSUM: b360510897dffcb29a2444d86f7a0a54131610f2
+
+COCOAPODS: 1.10.1

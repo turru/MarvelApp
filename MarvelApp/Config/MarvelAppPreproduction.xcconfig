@@ -1,0 +1,15 @@
+//
+//  MarvelAppPreproduction.xcconfig
+//  MarvelApp
+//
+//  Created by Francisco José González Egea on 5/6/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "AppShared.xcconfig"
+APP_NAME = PRE $(BASE_APP_NAME)
+PRODUCT_PACKAGE_NAME = $(BASE_PRODUCT_PACKAGE_NAME).test
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) APP_PREPRODUCTION=1
+SDOSEnvironment = Preproduction

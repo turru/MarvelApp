@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>publicKey</key>
+	<dict>
+		<key>Debug</key>
+		<string>081fde2fe64000942a6f23a1cdc2c46f</string>
+		<key>Preproduction</key>
+		<string>081fde2fe64000942a6f23a1cdc2c46f</string>
+		<key>Production</key>
+		<string>081fde2fe64000942a6f23a1cdc2c46f</string>
+	</dict>
+	<key>privateKey</key>
+	<dict>
+		<key>Debug</key>
+		<string>6429f6d0a6e8a51d214a656a59c76f9750fab7fc</string>
+		<key>Preproduction</key>
+		<string>6429f6d0a6e8a51d214a656a59c76f9750fab7fc</string>
+		<key>Production</key>
+		<string>6429f6d0a6e8a51d214a656a59c76f9750fab7fc</string>
+	</dict>
+	<key>wsUrl</key>
+	<dict>
+		<key>Debug</key>
+		<string>https://gateway.marvel.com</string>
+		<key>Preproduction</key>
+		<string>https://gateway.marvel.com</string>
+		<key>Production</key>
+		<string>https://gateway.marvel.com</string>
+	</dict>
+</dict>
+</plist>
